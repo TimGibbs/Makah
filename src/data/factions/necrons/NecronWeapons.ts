@@ -55,7 +55,7 @@ export const EnmiticDisintegrator: Weapon = {
       {
         types: [Pistol],
         attack: 3,
-        dam: 4,
+        dam: 3,
         ap: 0,
         special: [Gauss(1), Range(6)],
       },
@@ -114,7 +114,7 @@ export const EnmiticDisintegrator: Weapon = {
       {
         types: [Assault],
         attack: 3,
-        dam: 4,
+        dam: 3,
         ap: -1,
         special: [Gauss(2), Range(8)],
       },
@@ -129,7 +129,7 @@ export const EnmiticDisintegrator: Weapon = {
       {
         types: [Rifle],
         attack: 3,
-        dam: 4,
+        dam: 3,
         ap: -1,
         special: [Gauss(1)],
       },
@@ -173,7 +173,7 @@ export const EnmiticDisintegrator: Weapon = {
     profiles: [
       {
         types: [Combat],
-        attack: 3,
+        attack: 4,
         dam: 2,
         ap: -2,
         special: [Reckless],
@@ -188,7 +188,7 @@ export const EnmiticDisintegrator: Weapon = {
     profiles: [
       {
         types: [Combat],
-        attack: 3,
+        attack: 4,
         dam: 0,
         ap: 0,
         special: [Defensive],
@@ -203,7 +203,7 @@ export const EnmiticDisintegrator: Weapon = {
     profiles: [
       {
         types: [Combat],
-        attack: 3,
+        attack: 4,
         dam: 3,
         ap: -2,
         special: [],
@@ -218,7 +218,7 @@ export const EnmiticDisintegrator: Weapon = {
     profiles: [
       {
         types: [Combat],
-        attack: 2,
+        attack: 3,
         dam: 4,
         ap: -2,
         special: [],
@@ -233,7 +233,7 @@ export const EnmiticDisintegrator: Weapon = {
     profiles: [
       {
         types: [Combat],
-        attack: 3,
+        attack: 4,
         dam: 4,
         ap: -2,
         special: [Arc],

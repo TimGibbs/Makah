@@ -4,13 +4,13 @@ export const Atavindicator: Equipment =
 {
     name:"Atavindicator",
     effect:"Unique action: Pick a visible enemy Operative with an #Evade# token. On a 4+ they take d3 Damage.",
-    pt:8
+    pt:7
 }
 
 export const PhotonicTranssubjector: Equipment =
 {
     name:"Photonic Transsubjector",
-    effect:"The first time this Operative fails a Save, the total damage of the attack is reduced to 1.",
+    effect:"When this Operative fails a Save, you may use this to reduce the total damage of the attack to 1. One use only.",
     pt:5
 }
 
