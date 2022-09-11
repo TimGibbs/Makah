@@ -16,6 +16,15 @@ export const GrislyTrophies : Equipment =
 }
 
 
+export const Trueborn : Equipment = 
+{
+    name:"Trueborn",
+    effect:"4+ save.",
+    restrictons:"Kabalite only",
+    pt:3
+}
+
+
 export const Dodge : Equipment = 
 {
     name:"Dodge",
