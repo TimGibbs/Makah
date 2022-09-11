@@ -190,7 +190,7 @@ export const ShurikenPistol: Weapon = {
     profiles: [
       {
         types: [Combat],
-        attack: 3,
+        attack: 4,
         dam: 4,
         ap: -2,
         special: [],
@@ -205,7 +205,7 @@ export const ShurikenPistol: Weapon = {
     profiles: [
       {
         types: [Combat],
-        attack: 3,
+        attack: 4,
         dam: 4,
         ap: 0,
         special: [],
@@ -220,7 +220,7 @@ export const ShurikenPistol: Weapon = {
     profiles: [
       {
         types: [Combat],
-        attack: 3,
+        attack: 4,
         dam: "D3+2",
         ap: -1,
         special: [Only('Psykers')],
@@ -236,7 +236,7 @@ export const ShurikenPistol: Weapon = {
     profiles: [
       {
         types: [Combat],
-        attack: 3,
+        attack: 4,
         dam: 3,
         ap: -2,
         special: [],
