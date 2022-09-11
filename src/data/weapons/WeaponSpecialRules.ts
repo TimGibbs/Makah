@@ -167,7 +167,7 @@ export const Reach : WeaponSpecialRule =
 export const Reckless : WeaponSpecialRule =    
 {
     name:"Reckless",
-    effect:"This combat weapon cannot be used to fight back.",
+    effect:"This combat weapon gets -1 Attack when Fighting Back.",
 }
 
 export const Rending : WeaponSpecialRule =    
