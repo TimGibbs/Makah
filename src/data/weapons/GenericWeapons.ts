@@ -225,6 +225,22 @@ export const Knife: Weapon = {
   source: source,
 };
 
+export const Fists: Weapon = {
+  name: "Fists",
+  profiles: [
+    {
+      types: [Combat],
+      attack: 2,
+      dam: 2,
+      ap: 0,
+      special: [Small],
+    },
+  ],
+  pt: 0,
+  source: source,
+};
+
+
 export const PowerAxe: Weapon = {
   name: "Power Axe",
   profiles: [
