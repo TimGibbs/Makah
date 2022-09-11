@@ -67,10 +67,10 @@ export const Cryptek : OperativeBase =
     mv:5,
     ws:3,
     bs:3,
-    act:2,
+    act:3,
     wnd:9,
     sv:3,
-    pt:28,
+    pt:36,
 }
 
 export const Skorpekh : OperativeBase =
