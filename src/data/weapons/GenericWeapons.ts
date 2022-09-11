@@ -374,6 +374,7 @@ export const GenericWeaponsList: Weapon[] = [
   Axe,
   ClawsAndTeeth,
   CombatShield,
+  Fists,
   Knife,
   PowerAxe,
   PowerMaul,
