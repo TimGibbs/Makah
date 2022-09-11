@@ -72,6 +72,7 @@ const DeldarEquipment : Equipment[] =
 [
     Shadowfield,
     GrislyTrophies,
+    Trueborn,
     Dodge,
     SoulTrap,
     Adrenalight,
