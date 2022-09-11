@@ -63,7 +63,7 @@ export const SonicBlaster: Weapon = {
     profiles: [
       {
         types: [Combat],
-        attack: 3,
+        attack: 4,
         dam: 2,
         ap: -1,
         special: [Poison(3)],
@@ -78,7 +78,7 @@ export const SonicBlaster: Weapon = {
     profiles: [
       {
         types: [Combat],
-        attack: 3,
+        attack: 4,
         dam: 3,
         ap: 0,
         special: [Rending],
@@ -93,7 +93,7 @@ export const SonicBlaster: Weapon = {
     profiles: [
       {
         types: [Combat],
-        attack: 4,
+        attack: 5,
         dam: 2,
         ap: -1,
         special: [Stun],

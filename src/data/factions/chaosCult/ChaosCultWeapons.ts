@@ -41,7 +41,7 @@ export const ReaperChainCannon: Weapon = {
     profiles: [
       {
         types: [Combat],
-        attack: 3,
+        attack: 4,
         dam: 4,
         ap: 0,
         special: [Brutal(2)],
@@ -56,7 +56,7 @@ export const ReaperChainCannon: Weapon = {
     profiles: [
       {
         types: [Combat],
-        attack: 3,
+        attack: 4,
         dam: 3,
         ap: -1,
         special: [Brutal(2)],
@@ -77,7 +77,7 @@ export const ReaperChainCannon: Weapon = {
       {
         types: [Combat],
         attack: 3,
-        dam: 2,
+        dam: 3,
         ap: 0,
         special: [Only('Marines')],
       },
