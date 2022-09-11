@@ -13,7 +13,7 @@ export const Arc : WeaponSpecialRule =
     effect:"If at least 1 to hit dice is a 6, add 1 successful hit to the attack.",
 }
 
-export const Viscous : WeaponSpecialRule = {...Arc,name:"Viscous"}
+export const Vicious : WeaponSpecialRule = {...Arc,name:"Vicious"}
 
 
 export function Blast(x: Variable): WeaponSpecialRule  
@@ -242,6 +242,6 @@ export const WeaponSpecialRules : WeaponSpecialRule[] =
     SplitFire,
     Stun,
     Torrent,
-    Viscous,
+    Vicious,
     Volley("X")
 ]
