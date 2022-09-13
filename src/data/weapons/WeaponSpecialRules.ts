@@ -90,7 +90,7 @@ export function Irradiate(x:Variable) : WeaponSpecialRule
 {
     return {
         name:`Irradiate ${x}`,
-        effect:`If at least 1 to hit dice is a 6, add ${x} to the weapon's Damage value for the entire attack.`
+        effect:`If at least 1 to hit dice is a 6, add ${x} to the weapon's Damage value for each unsaved Hit.`
     }
 }
 
