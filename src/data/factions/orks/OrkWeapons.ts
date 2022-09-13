@@ -159,7 +159,7 @@ export const Slugga: Weapon = {
     profiles: [
       {
         types: [Combat],
-        attack: 3,
+        attack: 4,
         dam: 4,
         ap: 0,
         special: [],
@@ -174,7 +174,7 @@ export const Slugga: Weapon = {
     profiles: [
       {
         types: [Combat],
-        attack: 3,
+        attack: 4,
         dam: 4,
         ap: -1,
         special: [],
@@ -189,7 +189,7 @@ export const Slugga: Weapon = {
     profiles: [
       {
         types: [Combat],
-        attack: 3,
+        attack: 4,
         dam: 4,
         ap: -2,
         special: [],
