@@ -8,8 +8,8 @@ export const KabaliteWarrior : OperativeBase =
     bs:3,
     act:2,
     wnd:6,
-    sv:4,
-    pt:18,
+    sv:5,
+    pt:17,
 }
 
 export const Wych : OperativeBase =
