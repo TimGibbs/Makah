@@ -85,7 +85,7 @@ export const WebPistol: Weapon = {
     profiles: [
       {
         types: [Combat],
-        attack:  3,
+        attack:  4,
         dam: 3,
         ap: 0,
         special: [],
@@ -100,7 +100,7 @@ export const WebPistol: Weapon = {
     profiles: [
       {
         types: [Combat],
-        attack:  3,
+        attack:  4,
         dam: 5,
         ap: -1,
         special: [Inaccurate],
@@ -115,7 +115,7 @@ export const WebPistol: Weapon = {
     profiles: [
       {
         types: [Combat],
-        attack:  3,
+        attack:  4,
         dam: 2,
         ap: 0,
         special: [],
@@ -130,7 +130,7 @@ export const WebPistol: Weapon = {
     profiles: [
       {
         types: [Combat],
-        attack:  3,
+        attack:  4,
         dam: 2,
         ap: 0,
         special: [Only("Genestealers")],
@@ -175,7 +175,7 @@ export const WebPistol: Weapon = {
     profiles: [
       {
         types: [Combat],
-        attack:  2,
+        attack:  3,
         dam: 4,
         ap: -1,
         special: [Brutal(2)],
@@ -190,7 +190,7 @@ export const WebPistol: Weapon = {
     profiles: [
       {
         types: [Combat],
-        attack:  2,
+        attack:  3,
         dam: 3,
         ap: -2,
         special: [Brutal(2)],
