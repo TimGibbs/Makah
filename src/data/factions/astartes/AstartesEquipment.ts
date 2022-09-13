@@ -13,14 +13,14 @@ export const Auspex : Equipment =
 {
     name:"Auspex",
     effect:"This operative counts as being within 1\" of an objective when they're within 3\" of an objective.",
-    pt:4
+    pt:3
 }
 
 export const PuritySeals : Equipment = 
 {
     name:"Purity Seal",
     effect:"One use only. When this Operative activates you may remove an #Evade# token without losing an action.",
-    pt:3
+    pt:2
 }
 
 export const FirstCompanyHonours : Equipment = 
