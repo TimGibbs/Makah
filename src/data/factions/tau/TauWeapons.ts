@@ -124,7 +124,7 @@ export const PulsePistol: Weapon = {
       {
         name:"Knife",
         types: [Combat],
-        attack: 3,
+        attack: 4,
         dam: 3,
         ap: -1,
         special: [Only('Kroot')],
@@ -145,7 +145,7 @@ export const PulsePistol: Weapon = {
         special: [Headshot, Aim],
       },
     ],
-    pt: 7,
+    pt: 5,
     source: source,
   };
 
@@ -202,7 +202,7 @@ export const PulsePistol: Weapon = {
     profiles: [
       {
         types: [Combat],
-        attack: 3,
+        attack: 4,
         dam: 2,
         ap: -1,
         special: [Inaccurate],
