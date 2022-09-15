@@ -14,6 +14,7 @@ import { ChaosCult } from "./chaosCult/ChaosCult";
 import { CultOfExcess } from "./cultOfExcess/CultOfExcess";
 import { Tyranids } from "./tyranids/Tyranid";
 import { CultOfTheGift } from "./cultOfTheGift/CultOfTheGift";
+import { CultOfSlaughter } from "./cultOfSlaughter/CultOfSlaughter";
 
 export const Factions : Faction[] =
 [
@@ -32,6 +33,7 @@ export const Factions : Faction[] =
     ChaosCult,
     CultOfExcess,
     CultOfTheGift,
+    CultOfSlaughter
 ]
 
 export default Factions;
