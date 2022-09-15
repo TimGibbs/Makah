@@ -1,8 +1,7 @@
-
 import { Pistol, Assault, Rifle, Heavy, Combat, Grenade } from '../../../data/weapons/WeaponTypes';
 import WeaponType from '../../../types/WeaponType';
-import { weaponSorting } from './WeaponsBlock';
-import { WeaponTileProps } from './../weaponTIle/WeaponTile';
+import { WeaponTileProps } from './weaponTIle/WeaponTile';
+import weaponSorting from './WeaponSorting';
 
 const makeWeapon = (type:WeaponType, name:string) : WeaponTileProps  =>{
     return { weapon: {

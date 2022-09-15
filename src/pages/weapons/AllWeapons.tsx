@@ -1,10 +1,10 @@
 import onlyUnique from "../../functions/OnlyUnique";
-import WeaponBlock from "../components/weaponsBlock/WeaponsBlock";
+import WeaponBlock from "../components/weapons/weaponsBlock/WeaponsBlock";
 import { Factions } from './../../data/factions/Factions';
 import { Link  } from "react-router-dom";
 
 import './AllWeapons.css';
-import { WeaponTileProps } from './../components/weaponTIle/WeaponTile';
+import { WeaponTileProps } from './../components/weapons/weaponTIle/WeaponTile';
 import { Helmet } from "react-helmet";
 
 const weapons: WeaponTileProps[] = 

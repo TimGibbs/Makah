@@ -1,10 +1,10 @@
 import './WeaponTile.css'
-import Weapon from '../../../types/Weapon'
+import Weapon from '../../../../types/Weapon'
 import { Card, Col, Container, Row } from 'react-bootstrap'
-import GlossaryOverlay from '../GlossaryOverlay'
-import { getKey } from '../../../functions/keys'
+import GlossaryOverlay from '../../GlossaryOverlay'
+import { getKey } from '../../../../functions/keys'
 import React from 'react'
-import { Attacks, Damage, AP } from "../../../data/GlossaryTerms";
+import { Attacks, Damage, AP } from "../../../../data/GlossaryTerms";
 
 export interface WeaponTileProps 
 {
@@ -23,6 +23,7 @@ const WeaponTile = ({weapon, type, background, faction}:WeaponTileProps) => {
                     </div>
                 </Card.Header>
                 <Card.Body key={getKey()}  className="body" style={{backgroundImage: background ?`url(${background})`:"none"}} >
+                {weapon.restrictons && <Card.Subtitle className="mb-2">{weapon.restrictons}</Card.Subtitle>}
                     <Container key={getKey()}>
                     {weapon.profiles.map(o=>
                     <React.Fragment key={getKey()}>

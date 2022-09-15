@@ -1,7 +1,7 @@
 import { Card, Table } from "react-bootstrap";
 import Operative from "../../../types/Operative"
 import TileDisplay from "../tileDisplay/TileDisplay";
-import WeaponBlock from "../weaponsBlock/WeaponsBlock";
+import WeaponBlock from "../weapons/weaponsBlock/WeaponsBlock";
 
 const OperativeView = ({operative}:{operative:Operative}) => {
     return (<Card className="operativeView">
