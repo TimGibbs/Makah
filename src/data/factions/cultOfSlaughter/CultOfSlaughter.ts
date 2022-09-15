@@ -22,7 +22,7 @@ export const BloodForTheBloodGod:FactionAbility =
 export const CultOfSlaughter: Faction =
 {
     name:Name,
-    slug:"slaanesh",
+    slug:"khorne",
     icon: icon,
     background:background,
     quote:"\"I have slain many enemies, and won many battles and I tell you there is no great secret to success in war, no subtle trick of strategy that has saved my foes -- I seek out the enemy, attack as soon as I am able and with all the force at my command, rend his soldiers and smash his fortresses, leave only corpses behind me and then move on -- thus my primarch has taught me, and I find his wisdom has proved worthy on a hundred battlefields.\"",
