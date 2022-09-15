@@ -8,7 +8,7 @@ import { Attacks, Damage, AP } from "../../../../data/GlossaryTerms";
 import Weapon from "../../../../types/Weapon";
 import React from "react";
 
-export function weaponMap(weapon:Weapon, index:number, bold:boolean, addNote:(str: string) => Note){
+export function weaponMap(weapon:Weapon, index:number, bold:boolean, addNote:(str: string) => Note, hasRestrictions:boolean){
     let name = weapon.name;
     if(weapon.notes) {
         const n  = addNote(weapon.notes);
@@ -25,6 +25,7 @@ export function weaponMap(weapon:Weapon, index:number, bold:boolean, addNote:(st
             <td></td>
             <td rowSpan={3}>{weapon.pt}</td>
             <td rowSpan={3}>{weapon.source}</td>
+            {hasRestrictions && <td rowSpan={3}>{weapon.restrictons}</td>}
         </tr>
         {weapon.profiles.map((o,i)=>{
             return <tr key={getKey()}  className={bold ? "bold" : ""}>
@@ -48,6 +49,7 @@ export function weaponMap(weapon:Weapon, index:number, bold:boolean, addNote:(st
             <td>{weapon.profiles[0].special.sort((a,b)=>a.name.localeCompare(b.name)).map((p,j)=>GlossaryOverlay({ skill:p, item:<p key={j} className="skillName">{p.name}</p>}))}</td>
             <td>{weapon.pt}</td>
             <td>{weapon.source}</td>
+            {hasRestrictions && <td>{weapon.restrictons}</td>}
         </tr>
     }
 }
@@ -63,6 +65,7 @@ export const WeaponTable = ({items, source}:{items:WeaponTileProps[], source:str
             noteMap.push(note)
         }
         return note}
+    const hasRestrictions = items.some(o=> o.weapon.restrictons);
     return(
       <Container>
             <Table striped responsive key={getKey()} >
@@ -76,10 +79,11 @@ export const WeaponTable = ({items, source}:{items:WeaponTileProps[], source:str
                     <th>Special</th>
                     <th>Points</th>
                     <th>Source</th>
+                    {hasRestrictions && <th>Restrictions</th>}
                 </tr>
                 </thead>
                 <tbody>
-                    {items.map((x, index)=> weaponMap(x.weapon, index, x.weapon.source === source, addNote))}
+                    {items.map((x, index)=> weaponMap(x.weapon, index, x.weapon.source === source, addNote, hasRestrictions))}
                 </tbody>
             </Table>
             <ul>
