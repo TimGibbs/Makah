@@ -1,6 +1,6 @@
 import GenericWeaponsList from "../../data/weapons/GenericWeapons";
 import WeaponBlock from "../components/weapons/weaponsBlock/WeaponsBlock";
-import { WeaponTileProps } from "../components/weaponTIle/WeaponTile";
+import { WeaponTileProps } from "../components/weapons/weaponTIle/WeaponTile";
 
 const items :WeaponTileProps[] = GenericWeaponsList.map(o=>({weapon:o}))
 
