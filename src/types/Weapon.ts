@@ -27,6 +27,7 @@ export type Weapon =
     pt:Point
     modifiers?:WeaponModifier[]
     source:string
+    restrictons?:string
 }
 
 export default Weapon;

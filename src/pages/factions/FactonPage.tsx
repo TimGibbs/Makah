@@ -1,7 +1,7 @@
 import Faction from "../../types/Faction";
 import { OperativeBase } from "../../types/OperativeBase";
 import Tile from "../components/tile/Tile";
-import WeaponBlock from "../components/weaponsBlock/WeaponsBlock";
+import WeaponBlock from "../components/weapons/weaponsBlock/WeaponsBlock";
 import { Accordion, Table } from 'react-bootstrap';
 import Note from "../../types/Note";
 import './FactionPage.css'
