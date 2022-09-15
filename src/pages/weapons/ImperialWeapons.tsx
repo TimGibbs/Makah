@@ -1,6 +1,6 @@
 import ImperialWeaponsList from "../../data/weapons/ImperialWeapons";
 import WeaponBlock from "../components/weapons/weaponsBlock/WeaponsBlock";
-import { WeaponTileProps } from './../components/weaponTIle/WeaponTile';
+import { WeaponTileProps } from "../components/weapons/weaponTIle/WeaponTile";
 
 const items :WeaponTileProps[] = ImperialWeaponsList.map(o=>({weapon:o}))
 
