@@ -37,3 +37,10 @@ export const MIU: Equipment =
     effect:"Add to one pistol or assault weapon. That weapon can be fired as an additional Shoot action at Bs 5+ that neither costs an action or stops the Operative carrying out a normal Shoot. The weapon can be fired normally instead.",
     pt:5
 }
+
+export const Daemonic : Equipment = 
+{
+    name:"Daemonic",
+    effect:"This Operative always counts as having an #Evade# token when Shot at.",
+    pt:0
+}

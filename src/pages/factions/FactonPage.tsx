@@ -7,7 +7,7 @@ import Note from "../../types/Note";
 import './FactionPage.css'
 import { NoteIcons } from "../components/Notes";
 import TileDisplay from "../components/tileDisplay/TileDisplay";
-import { WeaponTileProps } from "../components/weaponTIle/WeaponTile";
+import { WeaponTileProps } from "../components/weapons/weaponTIle/WeaponTile";
 import { getKey } from "../../functions/keys";
 import {Helmet} from 'react-helmet'
 

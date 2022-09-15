@@ -1,5 +1,5 @@
 import Equipment from "../../../types/Equipment";
-
+import {Daemonic as DaemonicBase} from '../../BaseEquipment'
 export const SonicShrieker : Equipment = 
 {
     name:"Sonic Shrieker",
@@ -36,12 +36,10 @@ export const NewManOfBile : Equipment =
     pt:4
 }
 
-export const Daemonic : Equipment = 
+export const Daemonic : Equipment =
 {
-    name:"Daemonic",
-    effect:"This Operative always counts as having an #Evade# token when Shot at.",
-    restrictons:"Daemonette Only",
-    pt:0
+    ...DaemonicBase,
+    restrictons:"Daemonette Only"
 }
 
 
