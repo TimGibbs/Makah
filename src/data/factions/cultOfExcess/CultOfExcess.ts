@@ -16,7 +16,7 @@ const Name : string = "Cult of Excess"
 
 export const ThePerfectBlow:FactionAbility =
 {
-    name: "The Perfect Blow:",
+    name: "The Perfect Blow",
     effect:"Once per game, immediately before rolling to see who goes first, you can activate The Perfect Blow. That turn, when each Operative activates they may to gain +1 Bs or +1 Ws for one Shoot or Fight action."
 }
 
