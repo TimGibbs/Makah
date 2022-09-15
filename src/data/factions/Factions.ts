@@ -12,6 +12,7 @@ import { SistersOfBattle } from "./sisters/Sisters";
 import { Tau } from "./tau/Tau";
 import { ChaosCult } from "./chaosCult/ChaosCult";
 import { CultOfExcess } from "./cultOfExcess/CultOfExcess";
+import { Tyranids } from "./tyranids/Tyranid";
 
 export const Factions : Faction[] =
 [
@@ -26,6 +27,7 @@ export const Factions : Faction[] =
     Tau,
     Necrons, 
     GenestealerCults,
+    Tyranids,
     ChaosCult,
     CultOfExcess
 ]
