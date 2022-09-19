@@ -19,6 +19,12 @@ const mapOverlay = (value: string): JSX.Element =>{
         if(value === '['+term.name+']'){
             return <GlossaryOverlay skill={term} item={<i>{term.name}</i>} />
         }
+        if(value === '['+term.name+'].'){
+            return <GlossaryOverlay skill={term} item={<span><i>{term.name}</i>.</span>} />
+        }
+        if(value === '['+term.name+'],'){
+            return <GlossaryOverlay skill={term} item={<span><i>{term.name}</i>,</span>} />
+        }
     }
     return <>{value}</>
 }
