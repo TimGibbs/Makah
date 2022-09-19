@@ -4,29 +4,30 @@
     text-align: center;
     background-color: rgba(0, 0, 0, 0.1) !important; 
     align-self : stretch;
+    width: 100%;
 }
 
-.tileHeader {
+.tile .tileHeader {
     display: grid;
     font-weight: bold;
 }
 
-.tileHeader > * {
+.tile .tileHeader > * {
     grid-column-start: 1;
     grid-row-start: 1;
     justify-self:center;
   }
 
-.pt {
+.tile .pt {
     justify-self: right;
 }
 
-.type {
+.tile .type {
     justify-self: left;
 }
 
 
-.body {
+.tile .body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
