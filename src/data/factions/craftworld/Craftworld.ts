@@ -12,10 +12,10 @@ import CraftworldPsychicPowers from "./CraftworldPsychic";
 
 const Name : string = "Craftworld Eldar"
 
-export const Bladestorm:FactionAbility =
+export const Guided:FactionAbility =
 {
-    name: "Bladestorm",
-    effect:"Once per game, immediately before rolling to see who goes first, you can activate Bladestorm. For that turn, Shuriken weapons trigger the effect of Rending on a 4+ and add 1” to their [Dash]"
+    name: "Guided by Ghosts of the Past",
+    effect:"Once per game, immediately before rolling to see who goes first, you can activate Guided by Ghosts of the Past. For that turn, each Operative can re-roll a single dice."
 }
 
 export const Craftworld : Faction =
@@ -29,5 +29,5 @@ export const Craftworld : Faction =
     weapons:[...CraftWorldWeapons, ...GenericWeaponsList].filter(onlyUnique),
     equipment:CraftworldEquipment,
     psychicPowers:CraftworldPsychicPowers,
-    ability:[Bladestorm]
+    ability:[Guided]
 }
