@@ -31,3 +31,7 @@
     background-position: center;
     background-size: contain;
 }
+
+.weaponTile p {
+    margin: 0;
+}
