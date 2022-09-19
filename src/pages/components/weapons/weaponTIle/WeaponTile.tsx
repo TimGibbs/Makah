@@ -5,6 +5,7 @@ import GlossaryOverlay from '../../GlossaryOverlay'
 import { getKey } from '../../../../functions/keys'
 import React from 'react'
 import { Attacks, Damage, AP } from "../../../../data/GlossaryTerms";
+import { applyGlossaryOverlay } from "../../GlossaryOverlay"
 
 export interface WeaponTileProps 
 {
@@ -15,7 +16,7 @@ export interface WeaponTileProps
 }
 
 const WeaponTile = ({weapon, type, background, faction}:WeaponTileProps) => {
-    return (<Card className={`tile`} key={getKey()}>
+    return (<Card className={`weaponTile`} key={getKey()}>
                 <Card.Header key={getKey()} >
                     <div className="tileHeader">
                         <span className="title">{weapon.name}</span>
@@ -44,7 +45,7 @@ const WeaponTile = ({weapon, type, background, faction}:WeaponTileProps) => {
                         </Row>
                         </React.Fragment>
                         )}
-                        {weapon.notes && <Row key={getKey()}>{weapon.notes}</Row>}
+                        {weapon.notes && <Row key={getKey()}>{applyGlossaryOverlay(weapon.notes)}</Row>}
                     </Container>
                 </Card.Body>
     </Card>)

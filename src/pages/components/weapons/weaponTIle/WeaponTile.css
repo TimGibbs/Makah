@@ -1,32 +1,37 @@
-.tile {
+.weaponTile {
     margin-top: 10px;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.1) !important; 
     align-self : stretch;
+    width: 100%;
 }
 
-.tileHeader {
+.weaponTile .tileHeader {
     display: grid;
     font-weight: bold;
 }
 
-.tileHeader > * {
+.weaponTile .tileHeader > * {
     grid-column-start: 1;
     grid-row-start: 1;
     justify-self:center;
   }
 
-.pt {
+.weaponTile .pt {
     justify-self: right;
 }
 
-.type {
+.weaponTile .type {
     justify-self: left;
 }
 
 
-.body {
+.weaponTile .body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+}
+
+.weaponTile p {
+    margin: 0;
 }

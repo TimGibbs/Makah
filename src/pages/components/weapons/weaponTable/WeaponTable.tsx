@@ -7,8 +7,9 @@ import Note from "../../../../types/Note";
 import { Attacks, Damage, AP } from "../../../../data/GlossaryTerms";
 import Weapon from "../../../../types/Weapon";
 import React from "react";
+import { applyGlossaryOverlay } from "../../GlossaryOverlay"
 
-export function weaponMap(weapon:Weapon, index:number, bold:boolean, addNote:(str: string) => Note, hasRestrictions:boolean){
+export function weaponMap(weapon:Weapon, index:number, bold:boolean, addNote:(str: string) => Note, hasRestrictions:boolean,){
     let name = weapon.name;
     if(weapon.notes) {
         const n  = addNote(weapon.notes);
@@ -87,7 +88,7 @@ export const WeaponTable = ({items, source}:{items:WeaponTileProps[], source:str
                 </tbody>
             </Table>
             <ul>
-                {noteMap.map(o=><li key={getKey()} >{`${o.icon} ${o.text}`}</li>)}
+                {noteMap.map(o=><li key={getKey()} >{applyGlossaryOverlay(`${o.icon} ${o.text}`)}</li>)}
             </ul>
       </Container>)
   }
