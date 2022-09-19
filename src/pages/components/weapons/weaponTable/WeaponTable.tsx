@@ -88,7 +88,7 @@ export const WeaponTable = ({items, source}:{items:WeaponTileProps[], source:str
                 </tbody>
             </Table>
             <ul>
-                {noteMap.map(o=><li key={getKey()} >{`${o.icon} ${applyGlossaryOverlay(o.text)}`}</li>)}
+                {noteMap.map(o=><li key={getKey()} >{applyGlossaryOverlay(`${o.icon} ${o.text}`)}</li>)}
             </ul>
       </Container>)
   }
