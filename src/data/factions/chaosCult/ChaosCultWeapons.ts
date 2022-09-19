@@ -82,7 +82,7 @@ export const ReaperChainCannon: Weapon = {
         special: [Only('Marines')],
       },
     ],
-    pt: 2,
+    pt: 0,
     source: source,
   };
 
