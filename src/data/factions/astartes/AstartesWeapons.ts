@@ -37,7 +37,7 @@ export const MarineCombatKnife: Weapon = {
       special: [Only('Space Marines and Scouts')],
     },
   ],
-  pt: 2,
+  pt: 0,
   source: source,
 };
 
