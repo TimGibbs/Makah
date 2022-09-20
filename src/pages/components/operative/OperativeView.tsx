@@ -35,8 +35,7 @@ const OperativeView = ({operative}:{operative:Operative}) => {
                         </tbody>
                     </Table>
                     <WeaponBlock items={operative.weapons.map(o=>({weapon:o}))} showFilter={false} showToggles={false} source={""}/>
-                    <TileDisplay items={operative.skills.map(o=>({skill:o, type:"skill"}))} showFilter={false}/>
-                    <TileDisplay items={operative.equipment.map(o=>({skill:o, type:"eqp"}))} showFilter={false}/>
+                    <TileDisplay items={[...operative.skills.map(o=>({skill:o, type:"skill"})), ...operative.equipment.map(o=>({skill:o, type:"eqp"}))]} showFilter={false}/>
                 </Card.Body>
     </Card>)
 }
