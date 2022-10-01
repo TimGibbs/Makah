@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Makah/static/css/main.d51aeea1.css",
+    "main.css": "/Makah/static/css/main.58f62650.css",
     "main.js": "/Makah/static/js/main.b575ce30.js",
     "static/media/Astartes.svg": "/Makah/static/media/Astartes.be9ba7520029ce06a662b076938a1294.svg",
     "static/media/Tyranids.svg": "/Makah/static/media/Tyranids.76003776f01f2d5de5a77ff32b971ef9.svg",
@@ -21,11 +21,11 @@
     "static/media/Necrons.svg": "/Makah/static/media/Necrons.2a4a4d69ef0e691007eb431337543da2.svg",
     "static/media/Tzeentch.svg": "/Makah/static/media/Tzeentch.9c9f245497b1c46f529aa8dc854d96e0.svg",
     "index.html": "/Makah/index.html",
-    "main.d51aeea1.css.map": "/Makah/static/css/main.d51aeea1.css.map",
+    "main.58f62650.css.map": "/Makah/static/css/main.58f62650.css.map",
     "main.b575ce30.js.map": "/Makah/static/js/main.b575ce30.js.map"
   },
   "entrypoints": [
-    "static/css/main.d51aeea1.css",
+    "static/css/main.58f62650.css",
     "static/js/main.b575ce30.js"
   ]
 }
